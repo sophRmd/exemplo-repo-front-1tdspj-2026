@@ -1,21 +1,34 @@
 <!DOCTYPE html>
-<!-- DTD é o Document Type Definition e informa para o navegador a versão do html que está sendo carregada. assim, o navegador pode carregar um conjunto de bibliotecas de acordo com a versão específica -->
-
-<!-- ATRIBUTOS: os atributos são do tipo chave = valor.
- EX: lang = "pt-BR", isso é um atributo que pode ter em qualquer tag de conteúdo. <html lang = "pt-BR"> ... </html> -->
-
 <html lang="pt-BR">
-	<head>
-	  <meta charset="UTF-8"> <!--UTF-8 inclui letras com acento-->
-	  <title>Página 2</title>
-	</head>
-
-	<body>
-	  <h1>Página 2</h1> <!--titulo principal | tag semântica-->
-	  <div> 
-	    <a href="../index.html">Home</a> | 
-		<a href="../pagina1.html">Página 1</a> |
-		<a href="https://www.fiap.com.br/" target="_blank">FIAP</a>
-	  </div>
-	</body>
-</html>  
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Página 2</title>
+</head>
+<body>
+	<header>
+		<h1>Página-2</h1>
+		<nav>
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="../pagina1.html">Página-1</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Home</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ipsum repellendus, eaque, veniam repellat enim nemo commodi aspernatur sit officiis fuga doloribus minus aliquam nesciunt iusto labore quam pariatur animi explicabo amet reiciendis, dolorum impedit perferendis! Quia, laborum illo natus quis perferendis sapiente quos dolorem pariatur qui, suscipit, ipsam eum.</p>
+			<a href="../index.html">mais...</a>
+		</section>
+		<section>
+			<h2>Página-1</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam sed reprehenderit dolores? Veniam nulla eveniet magnam corrupti perspiciatis vero commodi inventore hic sed quae quia debitis accusantium nihil eaque, facere corporis cum, doloremque incidunt fuga consequatur vitae! Voluptatibus, cum. Doloremque eaque pariatur eveniet sequi vero alias dignissimos error quas.</p>
+			<a href="../pagina1.html">mais...</a>
+		</section>
+	</main>
+	<footer>
+		<p>&copy</p>
+	</footer>
+</body>
+</html>
